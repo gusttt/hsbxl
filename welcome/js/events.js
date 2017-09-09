@@ -18,6 +18,7 @@ function EventsCtrl($scope, $window, $rootElement, $http, $filter) {
   $http({method: 'GET', url: url}).
             success(function(data, status, headers, config) {
 
+
                 var row = [];
                 angular.forEach(data.results, function(value, key){
                   data.results[key].start = data.results[key].printouts['Start date'][0];
