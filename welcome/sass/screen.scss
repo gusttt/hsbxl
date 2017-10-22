@@ -10,7 +10,7 @@ html {
 
 
 body {
-	background: #626462 url(../images/electronics1.jpg) fixed;
+  background: #626462 url(../images/norbert.jpg) fixed;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -54,9 +54,10 @@ h1 {
 }
 
 .frontevents {
-  max-height: 300px;
+  max-height: 520px;
   overflow: hidden;
 }
+
 
 .projects {
   h2 {
@@ -105,18 +106,22 @@ h1 {
 
 .connect {
   a {
-    width: 64px; height: 64px;
+    width: 30px; height: 30px;
     display: inline-block;
     text-indent: -9999px;
   }
-  .facebook {
-    background: url(../images/social_media/facebook.png) no-repeat;
+  .icon_facebook {
+    background: url(../images/icons/facebook.svg) no-repeat;
   }
-  .twitter {
-    background: url(../images/social_media/twitter.png) no-repeat;
+
+  .icon_twitter {
+    background: url(../images/icons/twitter.svg) no-repeat;
   }
-  .youtube {
-    background: url(../images/social_media/youtube.png) no-repeat;
+  .icon_youtube {
+    background: url(../images/icons/youtube.svg) no-repeat;
+  }
+  .icon_mastodon {
+    background: url(../images/icons/mastodon.svg) no-repeat;
   }
 }
 
