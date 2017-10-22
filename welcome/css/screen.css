@@ -80,6 +80,7 @@ h1 {
   /* Safari and Chrome */
   column-count: 2;
   margin: 0;
+  list-style: none;
 }
 
 .gallery img {
