@@ -86,13 +86,15 @@
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
       </div>
-      <div style="position:relative;height:0;padding-bottom:56.25%">
-        <video controls>
+
+      <div align="center" class="js-video">
+        <video controls autoplay loop muted class="embed-responsive-item">
             <source src="video/intro.webm" type="video/webm; codecs=vp9,vorbis">
             <source src="video/intro.mp4" type="video/mp4">
         </video>
       </div>
-      <!-- Example row of columns -->
+
+        <!-- Example row of columns -->
       <div class="row">
         <div class="span4 frontevents" ng-controller="EventsCtrl">
           <h2>Upcoming Events</h2>
